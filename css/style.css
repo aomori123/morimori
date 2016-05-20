@@ -1,0 +1,25 @@
+body{
+    background-color:cadetblue;
+    font-family: 'Nova Mono';
+    color:white;
+}
+#lightgallery{
+    margin-top:200px;
+    text-align:center; 
+    margin-bottom: 200px;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    color:beige;
+}
+.imgsize{
+    width:35%;
+}
+#header{
+    margin-top:200px;
+    font-size: 100px;
+    text-align: center;
+}
