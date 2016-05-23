@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Nova+Mono' rel='stylesheet'>
+        <title>DIY IEM</title>
+    </head>
+    
+    <body>
+        <div class="header">Images</div>   
+
+        <div id="svg"></div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="js/svg/jquery.lazylinepainter-1.7.0.min.js"></script>
+        <script src="js/svg/svg.js"></script>
+
+        <script>
+$(document).ready(function(){ 
+ $('#svg').lazylinepainter( 
+ {
+    "svgData": pathObj,
+    "strokeWidth": 2,
+    "strokeColor": "white",
+     "delay":1500
+}).lazylinepainter('paint'); 
+});</script>
+    </body>
+</html>
